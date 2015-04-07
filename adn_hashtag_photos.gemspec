@@ -22,6 +22,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   end
 
+  spec.required_ruby_version = '>= 1.9'
+
   spec.add_runtime_dependency 'rest-client', '~> 1.8.0'
 
   spec.add_development_dependency 'bundler',  '~> 1.9'
